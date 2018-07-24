@@ -1,0 +1,43 @@
+FIS Daily
+Version 2.01
+
+FIS Daily is an AutoHotKey tool for automating your daily routine. 
+Configuration allows the user to determine programs and scripts to include on Start Up.
+Start Up initializes the programs and scripts configured for your routine.
+
+=============================================================
+Default Programs & Scripts
+=============================================================
+|	Programs		|	Scripts	    	|	
+|-------------------------------|-----------------------|
+|	Outlook			|	Time Clock	|
+|	Skype			|	Idle		|
+|				|	Lunch Menu	|
+|				|	Misspellings	|
+					
+=============================================================
+Configuration
+=============================================================
+To configure Start Up programs and scripts, first run Configuration.ahk
+After running the Configuration file, input your user id (e#).
+Select the programs and scripts to load on start up.
+To change default locations, double click the program or script to change.
+To add a new program or script, select the Add button beneath the desired type.
+Choose name of the new addition followed by its location.
+Save button saves new configurations. 
+Cancel button cancels new configurations.
+To change settings, re-run Configuration. 
+
+By default, Start Up.ahk is added to the users StartUp folder.
+To intiate daily programs and scripts outside of start up, run Start Up.ahk 
+
+=============================================================
+Updates
+=============================================================
+Established default programs and scripts.
+Separated Scripts into 2 categories - Scripts and Background Scripts.
+Placed program types into listview boxes for scrolling large numbers.
+Included ability to add new programs and scripts.
+Double clicking now allows users to update the file locations.
+User ID now included on title.
+Automatically add Start Up.ahk to the users StartUp folder.
